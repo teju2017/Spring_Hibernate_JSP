@@ -1,0 +1,87 @@
+
+
+
+Hackathon Team Name: 
+
+
+SHARK 
+
+
+
+Hackathon Challenge: 
+
+
+Other 
+
+
+
+For which division(s) is the idea relevant: 
+
+
+Asset Management / Corporate Center / Global Wealth Management / Investment Bank / Personal & Corporate Banking 
+
+
+
+What is the current issue that your idea would help to solve? (# No CID! #): 
+
+
+Tool to assist in the migration of the OLAP application using RDBMS to Hadoop environment
+
+ Idea behind the tool:-
+ Most of the organizations are moving their primitive OLAP applications into the hadoop environment, the migration requires movement of the data and replication of the ETL's running in the existing system
+ ETL's performed using the PL/SQL block and tools like informatica has to be replicated by the spark jobs in the hadoop environment
+ The idea of the tool comes up to satisfy the above mentioned requirement as this is one solution in replicating the above mentioned tasks 
+
+
+
+What is your proposed solution? (# No CID! #): 
+
+
+
+ Description:- A thick client tool that simulates a toad or an SQL developer and is capable of running queries in a spark framework which can be directly deployed into the hadoop environment as the spark jobs.
+ The tool helps business users knowing SQL to directly run the queries and get the required data
+
+
+ Spark Framework:- 1) Apache spark is a framework that has its own cluster managed and in-memory computing capabilities that makes the data processing faster in an hadoop environment
+ 2) It has its own sets of libraries for machine learning, SQL processing and data analytics
+
+
+ Technical functionalities:-
+ 1) Provides a GUI to run the SQL queries
+ 2) The query runs on top of the file formats like JSON,CSV,AVRO and PARQUET format
+ 3) The tool also has the functionality of adding user defined functions that are not part of the standard ANSI SQL to simulate the functionalities of the Oracle defined functions
+ 4) The queries can be packaged as jobs and can be deployed directly as spark jobs into the hadoop environment
+ 5) Tool also has certain functionalities developed to simulate a PL/SQL block in the Spark
+ 6) The tool alows to build user defined or rule defined functions, this feature enables multiple SQL blocks to be submitted in one job that simulates a procedure block in Oracle and PL/SQL
+
+ Tool technology Benefits :- 1) Tool will help in migrating applications running on an RDBMS into hadoop based applications
+ 2) Tool can be comfortably used by the SQL developers to migrate the applications into the hadoop based system
+ 3) Tool will simplify the migration and deployment activity
+ 4) Tool also has the flexibilty of performing the tests as part of the migration
+ a) Comparing the result set retrieved from the spark sql with the RDBMS dataset
+ b) Also it provides the lineage of the query retrieval using the spark provided libraries
+
+
+ Cost benefits:- 1) Spark is an open source framework so no licensing cost involved in the development
+ 2) No need of hadoop/spark specific developers to perform the migration as the tool wraps the functionality
+ 3) Migration helps in eliminating the licensing cost for the RDBMS database and ETL tools used in the existing applications
+ 4) Hadoop migration altogether will help in bringing down the infrastructure cost and maintenance
+ 5) Concept of data lake creation helps in reducing the cost spent on processing the data at multiple points , also it will be one stop place for all the data in the bank 
+
+
+
+Business benefits: 
+
+
+
+ Business benefits:- 1) The data processing is made faster there by providing a better efficiency and services to the business
+ 2) HDFS is highly fault-tolerant and is designed to be deployed on low-cost hardware
+ 3) The application can be extended for better data analytics using machine learning library of spark framework
+ 4) Concept of data lake creation helps in reducing the cost spent on processing the data at multiple points , also it will be one stop place for all the data in the bank 
+
+
+
+GFA - Idea benefit: 
+
+
+Optimized Process or Tools / Enhanced Client Experience 
